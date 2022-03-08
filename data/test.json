@@ -1,0 +1,1117 @@
+{
+    "nodes": [
+        {
+            "id": "odsname--ODS.CMS_BILL_INFO",
+            "type": "Origin",
+            "name": "ODS.CMS_BILL_INFO",
+            "columns": [
+                {
+                    "name": "BILLSUM",
+                    "id": "odsname--ODS.CMS_BILL_INFO--BILLSUM"
+                }
+            ],
+            "left": 20,
+            "top": 20
+        },
+        {
+            "id": "odsname--ODS.CMS_BUSINESS_CONTRACT",
+            "type": "Origin",
+            "name": "ODS.CMS_BUSINESS_CONTRACT",
+            "columns": [
+                {
+                    "name": "ACCOUNTNO",
+                    "id": "odsname--ODS.CMS_BUSINESS_CONTRACT--ACCOUNTNO"
+                },
+                {
+                    "name": "BAILACCOUNT",
+                    "id": "odsname--ODS.CMS_BUSINESS_CONTRACT--BAILACCOUNT"
+                },
+                {
+                    "name": "CLASSIFYRESULT",
+                    "id": "odsname--ODS.CMS_BUSINESS_CONTRACT--CLASSIFYRESULT"
+                }
+            ],
+            "left": 20,
+            "top": 67
+        },
+        {
+            "id": "odsname--ODS.CMS_BUSINESS_DUEBILL",
+            "type": "Origin",
+            "name": "ODS.CMS_BUSINESS_DUEBILL",
+            "columns": [
+                {
+                    "name": "EXTENDTIMES",
+                    "id": "odsname--ODS.CMS_BUSINESS_DUEBILL--EXTENDTIMES"
+                },
+                {
+                    "name": "INTERESTBALANCE1",
+                    "id": "odsname--ODS.CMS_BUSINESS_DUEBILL--INTERESTBALANCE1"
+                },
+                {
+                    "name": "INTERESTBALANCE2",
+                    "id": "odsname--ODS.CMS_BUSINESS_DUEBILL--INTERESTBALANCE2"
+                },
+                {
+                    "name": "LCATIMES",
+                    "id": "odsname--ODS.CMS_BUSINESS_DUEBILL--LCATIMES"
+                },
+                {
+                    "name": "PAYBACKACCOUNT",
+                    "id": "odsname--ODS.CMS_BUSINESS_DUEBILL--PAYBACKACCOUNT"
+                },
+                {
+                    "name": "TATIMES",
+                    "id": "odsname--ODS.CMS_BUSINESS_DUEBILL--TATIMES"
+                }
+            ],
+            "left": 20,
+            "top": 146
+        },
+        {
+            "id": "odsname--ODS.CMS_USER_INFO",
+            "type": "Origin",
+            "name": "ODS.CMS_USER_INFO",
+            "columns": [
+                {
+                    "name": "USERNAME",
+                    "id": "odsname--ODS.CMS_USER_INFO--USERNAME"
+                },
+                {
+                    "name": "WORKERNO",
+                    "id": "odsname--ODS.CMS_USER_INFO--WORKERNO"
+                }
+            ],
+            "left": 20,
+            "top": 273
+        },
+        {
+            "id": "odsname--ODS.NL_CL_LOAN",
+            "type": "Origin",
+            "name": "ODS.NL_CL_LOAN",
+            "columns": [
+                {
+                    "name": "LOAN_SUB_TYPE",
+                    "id": "odsname--ODS.NL_CL_LOAN--LOAN_SUB_TYPE"
+                }
+            ],
+            "left": 20,
+            "top": 336
+        },
+        {
+            "id": "odsname--ODS.SYM_CL_DRAFT",
+            "type": "Origin",
+            "name": "ODS.SYM_CL_DRAFT",
+            "columns": [
+                {
+                    "name": "DRAFT_AMT",
+                    "id": "odsname--ODS.SYM_CL_DRAFT--DRAFT_AMT"
+                }
+            ],
+            "left": 20,
+            "top": 383
+        },
+        {
+            "id": "odsname--ODS.SYM_CL_GL_CLIENT",
+            "type": "Origin",
+            "name": "ODS.SYM_CL_GL_CLIENT",
+            "columns": [
+                {
+                    "name": "LOAN_SUB_TYPE",
+                    "id": "odsname--ODS.SYM_CL_GL_CLIENT--LOAN_SUB_TYPE"
+                }
+            ],
+            "left": 20,
+            "top": 430
+        },
+        {
+            "id": "odsname--ODS.SYM_CL_GL_UNIT",
+            "type": "Origin",
+            "name": "ODS.SYM_CL_GL_UNIT",
+            "columns": [
+                {
+                    "name": "GL_CODE",
+                    "id": "odsname--ODS.SYM_CL_GL_UNIT--GL_CODE"
+                }
+            ],
+            "left": 20,
+            "top": 477
+        },
+        {
+            "id": "odsname--ODS.SYM_FM_BRANCH_TBL",
+            "type": "Origin",
+            "name": "ODS.SYM_FM_BRANCH_TBL",
+            "columns": [
+                {
+                    "name": "BRANCH",
+                    "id": "odsname--ODS.SYM_FM_BRANCH_TBL--BRANCH"
+                }
+            ],
+            "left": 20,
+            "top": 524
+        },
+        {
+            "id": "odsname--ODS.SYM_FM_CLIENT",
+            "type": "Origin",
+            "name": "ODS.SYM_FM_CLIENT",
+            "columns": [
+                {
+                    "name": "CH_CLIENT_NAME",
+                    "id": "odsname--ODS.SYM_FM_CLIENT--CH_CLIENT_NAME"
+                },
+                {
+                    "name": "CLIENT_NAME",
+                    "id": "odsname--ODS.SYM_FM_CLIENT--CLIENT_NAME"
+                }
+            ],
+            "left": 20,
+            "top": 571
+        },
+        {
+            "id": "odsname--ODS.SYM_FM_USER",
+            "type": "Origin",
+            "name": "ODS.SYM_FM_USER",
+            "columns": [
+                {
+                    "name": "USER_NAME",
+                    "id": "odsname--ODS.SYM_FM_USER--USER_NAME"
+                }
+            ],
+            "left": 20,
+            "top": 634
+        },
+        {
+            "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL",
+            "type": "Origin",
+            "name": "ODS.SYM_SYM_CL_DRAWDOWN_TBL",
+            "columns": [
+                {
+                    "name": "CCY",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--CCY"
+                },
+                {
+                    "name": "CMISLOAN_NO",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--CMISLOAN_NO"
+                },
+                {
+                    "name": "DD_AMT",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--DD_AMT"
+                },
+                {
+                    "name": "INT_BASIS_RATE",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_BASIS_RATE"
+                },
+                {
+                    "name": "INT_POSTED",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_POSTED"
+                },
+                {
+                    "name": "INT_RATE",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RATE"
+                },
+                {
+                    "name": "INT_RECD_RECBLE",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RECD_RECBLE"
+                },
+                {
+                    "name": "LAST_OUTSTANDING",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--LAST_OUTSTANDING"
+                },
+                {
+                    "name": "MATURITY",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY"
+                },
+                {
+                    "name": "PAY_OFF_DATE",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--PAY_OFF_DATE"
+                },
+                {
+                    "name": "REPAY_MODE",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--REPAY_MODE"
+                },
+                {
+                    "name": "TRAN_DATE",
+                    "id": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--TRAN_DATE"
+                }
+            ],
+            "left": 20,
+            "top": 681
+        },
+        {
+            "id": "odsname--ODS.SYM_SYM_CL_LOAN",
+            "type": "Origin",
+            "name": "ODS.SYM_SYM_CL_LOAN",
+            "columns": [
+                {
+                    "name": "BORROWER",
+                    "id": "odsname--ODS.SYM_SYM_CL_LOAN--BORROWER"
+                },
+                {
+                    "name": "CB_STATUS",
+                    "id": "odsname--ODS.SYM_SYM_CL_LOAN--CB_STATUS"
+                },
+                {
+                    "name": "CONTRACT_NO",
+                    "id": "odsname--ODS.SYM_SYM_CL_LOAN--CONTRACT_NO"
+                },
+                {
+                    "name": "LOAN_NO",
+                    "id": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_NO"
+                },
+                {
+                    "name": "LOAN_SUB_TYPE",
+                    "id": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_SUB_TYPE"
+                },
+                {
+                    "name": "LOAN_TYPE",
+                    "id": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_TYPE"
+                }
+            ],
+            "left": 20,
+            "top": 904
+        },
+        {
+            "id": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL",
+            "type": "Origin",
+            "name": "ODS.SYM_SYM_CL_REPAY_SCHED_TBL",
+            "columns": [
+                {
+                    "name": "COUNTER",
+                    "id": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL--COUNTER"
+                },
+                {
+                    "name": "END_DATE",
+                    "id": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL--END_DATE"
+                }
+            ],
+            "left": 20,
+            "top": 1031
+        },
+        {
+            "id": "odsname--ODS.SYM_SYM_FM_BASIS_RATE",
+            "type": "Origin",
+            "name": "ODS.SYM_SYM_FM_BASIS_RATE",
+            "columns": [
+                {
+                    "name": "INT_BASIS_RATE",
+                    "id": "odsname--ODS.SYM_SYM_FM_BASIS_RATE--INT_BASIS_RATE"
+                }
+            ],
+            "left": 20,
+            "top": 1094
+        },
+        {
+            "id": "admname--ADM.CL_LOAN_ACCT_HIST",
+            "type": "Middle",
+            "name": "ADM.CL_LOAN_ACCT_HIST",
+            "columns": [
+                {
+                    "name": "CCY",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--CCY"
+                },
+                {
+                    "name": "CLIENT_NAME",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME"
+                },
+                {
+                    "name": "CLIENT_NO",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NO"
+                },
+                {
+                    "name": "CMIS_FIVE_CLASS",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--CMIS_FIVE_CLASS"
+                },
+                {
+                    "name": "DD_AMT",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--DD_AMT"
+                },
+                {
+                    "name": "DRAW_NO",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--DRAW_NO"
+                },
+                {
+                    "name": "DRIFT_NUM",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM"
+                },
+                {
+                    "name": "GL_CODE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE"
+                },
+                {
+                    "name": "INT_POSTED",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--INT_POSTED"
+                },
+                {
+                    "name": "INT_RATE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--INT_RATE"
+                },
+                {
+                    "name": "INT_RECD_RECBLE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--INT_RECD_RECBLE"
+                },
+                {
+                    "name": "INT_REPAY_FREQ",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--INT_REPAY_FREQ"
+                },
+                {
+                    "name": "LOAN_BALANCE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_BALANCE"
+                },
+                {
+                    "name": "LOAN_NO",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_NO"
+                },
+                {
+                    "name": "LOAN_SUB_TYPE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE"
+                },
+                {
+                    "name": "LOAN_TYPE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_TYPE"
+                },
+                {
+                    "name": "MATURITY_DATE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE"
+                },
+                {
+                    "name": "OPEN_DATE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--OPEN_DATE"
+                },
+                {
+                    "name": "PRI_REPAY_TYPE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--PRI_REPAY_TYPE"
+                },
+                {
+                    "name": "SETTLE_DATE",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE"
+                },
+                {
+                    "name": "STATUS",
+                    "id": "admname--ADM.CL_LOAN_ACCT_HIST--STATUS"
+                }
+            ],
+            "left": 330,
+            "top": 20
+        },
+        {
+            "id": "admname--ADM.CL_LOAN_HIST",
+            "type": "Middle",
+            "name": "ADM.CL_LOAN_HIST",
+            "columns": [
+                {
+                    "name": "CONTRACT_NO",
+                    "id": "admname--ADM.CL_LOAN_HIST--CONTRACT_NO"
+                }
+            ],
+            "left": 330,
+            "top": 387
+        },
+        {
+            "id": "admname--ADM.CO_BRANCH",
+            "type": "Middle",
+            "name": "ADM.CO_BRANCH",
+            "columns": [
+                {
+                    "name": "BRANCH",
+                    "id": "admname--ADM.CO_BRANCH--BRANCH"
+                }
+            ],
+            "left": 330,
+            "top": 434
+        },
+        {
+            "id": "RS",
+            "type": "RS",
+            "name": "RESULT",
+            "columns": [
+                {
+                    "name": "FKFS",
+                    "id": "RS--FKFS"
+                },
+                {
+                    "name": "XDYWZL",
+                    "id": "RS--XDYWZL"
+                },
+                {
+                    "name": "DKFHZH",
+                    "id": "RS--DKFHZH"
+                },
+                {
+                    "name": "DKLX",
+                    "id": "RS--DKLX"
+                },
+                {
+                    "name": "DKZT",
+                    "id": "RS--DKZT"
+                },
+                {
+                    "name": "KHTYBH",
+                    "id": "RS--KHTYBH"
+                },
+                {
+                    "name": "DKWJFL",
+                    "id": "RS--DKWJFL"
+                },
+                {
+                    "name": "JXFS",
+                    "id": "RS--JXFS"
+                },
+                {
+                    "name": "XDHTH",
+                    "id": "RS--XDHTH"
+                },
+                {
+                    "name": "BZJBZ",
+                    "id": "RS--BZJBZ"
+                },
+                {
+                    "name": "CJRQ",
+                    "id": "RS--CJRQ"
+                },
+                {
+                    "name": "JRXKZH",
+                    "id": "RS--JRXKZH"
+                },
+                {
+                    "name": "LLLX",
+                    "id": "RS--LLLX"
+                },
+                {
+                    "name": "XZBZ",
+                    "id": "RS--XZBZ"
+                },
+                {
+                    "name": "YXJGDM",
+                    "id": "RS--YXJGDM"
+                },
+                {
+                    "name": "YXJGMC",
+                    "id": "RS--YXJGMC"
+                },
+                {
+                    "name": "KHMC",
+                    "id": "RS--KHMC"
+                },
+                {
+                    "name": "LLFD",
+                    "id": "RS--LLFD"
+                },
+                {
+                    "name": "PMJE",
+                    "id": "RS--PMJE"
+                },
+                {
+                    "name": "XDYGH",
+                    "id": "RS--XDYGH"
+                },
+                {
+                    "name": "XDYXM",
+                    "id": "RS--XDYXM"
+                },
+                {
+                    "name": "BZ",
+                    "id": "RS--BZ"
+                },
+                {
+                    "name": "DKQX",
+                    "id": "RS--DKQX"
+                },
+                {
+                    "name": "DKSJDQRQ",
+                    "id": "RS--DKSJDQRQ"
+                },
+                {
+                    "name": "DKSJFFRQ",
+                    "id": "RS--DKSJFFRQ"
+                },
+                {
+                    "name": "DKYSDQRQ",
+                    "id": "RS--DKYSDQRQ"
+                },
+                {
+                    "name": "HKFS",
+                    "id": "RS--HKFS"
+                },
+                {
+                    "name": "JKJE",
+                    "id": "RS--JKJE"
+                },
+                {
+                    "name": "JKYE",
+                    "id": "RS--JKYE"
+                },
+                {
+                    "name": "JZLL",
+                    "id": "RS--JZLL"
+                },
+                {
+                    "name": "XDJJH",
+                    "id": "RS--XDJJH"
+                },
+                {
+                    "name": "ZJRQ",
+                    "id": "RS--ZJRQ"
+                },
+                {
+                    "name": "BNQXYE",
+                    "id": "RS--BNQXYE"
+                },
+                {
+                    "name": "BWQXYE",
+                    "id": "RS--BWQXYE"
+                },
+                {
+                    "name": "BZJZH",
+                    "id": "RS--BZJZH"
+                },
+                {
+                    "name": "DKRZZH",
+                    "id": "RS--DKRZZH"
+                },
+                {
+                    "name": "HKZH",
+                    "id": "RS--HKZH"
+                },
+                {
+                    "name": "LJQKQS",
+                    "id": "RS--LJQKQS"
+                },
+                {
+                    "name": "LXQKQS",
+                    "id": "RS--LXQKQS"
+                },
+                {
+                    "name": "ZQCS",
+                    "id": "RS--ZQCS"
+                },
+                {
+                    "name": "MXKMBH",
+                    "id": "RS--MXKMBH"
+                },
+                {
+                    "name": "MXKMMC",
+                    "id": "RS--MXKMMC"
+                },
+                {
+                    "name": "NBJGH",
+                    "id": "RS--NBJGH"
+                },
+                {
+                    "name": "DQQS",
+                    "id": "RS--DQQS"
+                },
+                {
+                    "name": "ZQS",
+                    "id": "RS--ZQS"
+                }
+            ],
+            "left": 660,
+            "top": 20
+        }
+    ],
+    "relations": [
+        {
+            "id": "0",
+            "source": "odsname--ODS.NL_CL_LOAN--LOAN_SUB_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "relat": "odsname--ODS.NL_CL_LOAN--LOAN_SUB_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE->RS--FKFS"
+        },
+        {
+            "id": "1",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "target": "RS--FKFS",
+            "relat": ""
+        },
+        {
+            "id": "2",
+            "source": "odsname--ODS.NL_CL_LOAN--LOAN_SUB_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "relat": "odsname--ODS.NL_CL_LOAN--LOAN_SUB_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE->RS--XDYWZL"
+        },
+        {
+            "id": "3",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "target": "RS--XDYWZL",
+            "relat": ""
+        },
+        {
+            "id": "4",
+            "source": "odsname--ODS.SYM_CL_GL_CLIENT--LOAN_SUB_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "relat": "odsname--ODS.SYM_CL_GL_CLIENT--LOAN_SUB_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE->RS--FKFS"
+        },
+        {
+            "id": "5",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "target": "RS--FKFS",
+            "relat": ""
+        },
+        {
+            "id": "6",
+            "source": "odsname--ODS.SYM_CL_GL_CLIENT--LOAN_SUB_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "relat": "odsname--ODS.SYM_CL_GL_CLIENT--LOAN_SUB_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE->RS--XDYWZL"
+        },
+        {
+            "id": "7",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "target": "RS--XDYWZL",
+            "relat": ""
+        },
+        {
+            "id": "8",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_NO",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_NO",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_NO->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_NO->RS--DKFHZH"
+        },
+        {
+            "id": "9",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_NO",
+            "target": "RS--DKFHZH",
+            "relat": ""
+        },
+        {
+            "id": "10",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_TYPE",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_TYPE->RS--DKLX"
+        },
+        {
+            "id": "11",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_TYPE",
+            "target": "RS--DKLX",
+            "relat": ""
+        },
+        {
+            "id": "12",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--CB_STATUS",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--STATUS",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--CB_STATUS->admname--ADM.CL_LOAN_ACCT_HIST--STATUS->RS--DKZT"
+        },
+        {
+            "id": "13",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--STATUS",
+            "target": "RS--DKZT",
+            "relat": ""
+        },
+        {
+            "id": "14",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_SUB_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_SUB_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE->RS--FKFS"
+        },
+        {
+            "id": "15",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "target": "RS--FKFS",
+            "relat": ""
+        },
+        {
+            "id": "16",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--BORROWER",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NO",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--BORROWER->admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NO->RS--KHTYBH"
+        },
+        {
+            "id": "17",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NO",
+            "target": "RS--KHTYBH",
+            "relat": ""
+        },
+        {
+            "id": "18",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_SUB_TYPE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--LOAN_SUB_TYPE->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE->RS--XDYWZL"
+        },
+        {
+            "id": "19",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_SUB_TYPE",
+            "target": "RS--XDYWZL",
+            "relat": ""
+        },
+        {
+            "id": "20",
+            "source": "odsname--ODS.CMS_BUSINESS_CONTRACT--CLASSIFYRESULT",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--CMIS_FIVE_CLASS",
+            "relat": "odsname--ODS.CMS_BUSINESS_CONTRACT--CLASSIFYRESULT->admname--ADM.CL_LOAN_ACCT_HIST--CMIS_FIVE_CLASS->RS--DKWJFL"
+        },
+        {
+            "id": "21",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--CMIS_FIVE_CLASS",
+            "target": "RS--DKWJFL",
+            "relat": ""
+        },
+        {
+            "id": "22",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--INT_REPAY_FREQ",
+            "target": "RS--JXFS",
+            "relat": "admname--ADM.CL_LOAN_ACCT_HIST--INT_REPAY_FREQ->RS--JXFS"
+        },
+        {
+            "id": "23",
+            "source": "odsname--ODS.SYM_SYM_CL_LOAN--CONTRACT_NO",
+            "target": "admname--ADM.CL_LOAN_HIST--CONTRACT_NO",
+            "relat": "odsname--ODS.SYM_SYM_CL_LOAN--CONTRACT_NO->admname--ADM.CL_LOAN_HIST--CONTRACT_NO->RS--XDHTH"
+        },
+        {
+            "id": "24",
+            "source": "admname--ADM.CL_LOAN_HIST--CONTRACT_NO",
+            "target": "RS--XDHTH",
+            "relat": ""
+        },
+        {
+            "id": "25",
+            "source": "odsname--ODS.SYM_FM_CLIENT--CLIENT_NAME",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME",
+            "relat": "odsname--ODS.SYM_FM_CLIENT--CLIENT_NAME->admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME->RS--KHMC"
+        },
+        {
+            "id": "26",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME",
+            "target": "RS--KHMC",
+            "relat": ""
+        },
+        {
+            "id": "27",
+            "source": "odsname--ODS.SYM_FM_CLIENT--CH_CLIENT_NAME",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME",
+            "relat": "odsname--ODS.SYM_FM_CLIENT--CH_CLIENT_NAME->admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME->RS--KHMC"
+        },
+        {
+            "id": "28",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--CLIENT_NAME",
+            "target": "RS--KHMC",
+            "relat": ""
+        },
+        {
+            "id": "29",
+            "source": "odsname--ODS.SYM_SYM_FM_BASIS_RATE--INT_BASIS_RATE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM",
+            "relat": "odsname--ODS.SYM_SYM_FM_BASIS_RATE--INT_BASIS_RATE->admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM->RS--LLFD"
+        },
+        {
+            "id": "30",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM",
+            "target": "RS--LLFD",
+            "relat": ""
+        },
+        {
+            "id": "31",
+            "source": "odsname--ODS.CMS_BILL_INFO--BILLSUM",
+            "target": "RS--PMJE",
+            "relat": "odsname--ODS.CMS_BILL_INFO--BILLSUM->RS--PMJE"
+        },
+        {
+            "id": "32",
+            "source": "odsname--ODS.CMS_USER_INFO--WORKERNO",
+            "target": "RS--XDYGH",
+            "relat": "odsname--ODS.CMS_USER_INFO--WORKERNO->RS--XDYGH"
+        },
+        {
+            "id": "33",
+            "source": "odsname--ODS.CMS_USER_INFO--USERNAME",
+            "target": "RS--XDYXM",
+            "relat": "odsname--ODS.CMS_USER_INFO--USERNAME->RS--XDYXM"
+        },
+        {
+            "id": "34",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--CCY",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--CCY",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--CCY->admname--ADM.CL_LOAN_ACCT_HIST--CCY->RS--BZ"
+        },
+        {
+            "id": "35",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--CCY",
+            "target": "RS--BZ",
+            "relat": ""
+        },
+        {
+            "id": "36",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY->admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE->RS--DKQX"
+        },
+        {
+            "id": "37",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE",
+            "target": "RS--DKQX",
+            "relat": ""
+        },
+        {
+            "id": "38",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY->admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE->RS--DKSJDQRQ"
+        },
+        {
+            "id": "39",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE",
+            "target": "RS--DKSJDQRQ",
+            "relat": ""
+        },
+        {
+            "id": "40",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--TRAN_DATE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--OPEN_DATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--TRAN_DATE->admname--ADM.CL_LOAN_ACCT_HIST--OPEN_DATE->RS--DKSJFFRQ"
+        },
+        {
+            "id": "41",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--OPEN_DATE",
+            "target": "RS--DKSJFFRQ",
+            "relat": ""
+        },
+        {
+            "id": "42",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY->admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE->RS--DKYSDQRQ"
+        },
+        {
+            "id": "43",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--MATURITY_DATE",
+            "target": "RS--DKYSDQRQ",
+            "relat": ""
+        },
+        {
+            "id": "44",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--REPAY_MODE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--PRI_REPAY_TYPE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--REPAY_MODE->admname--ADM.CL_LOAN_ACCT_HIST--PRI_REPAY_TYPE->RS--HKFS"
+        },
+        {
+            "id": "45",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--PRI_REPAY_TYPE",
+            "target": "RS--HKFS",
+            "relat": ""
+        },
+        {
+            "id": "46",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--DD_AMT",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--DD_AMT",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--DD_AMT->admname--ADM.CL_LOAN_ACCT_HIST--DD_AMT->RS--JKJE"
+        },
+        {
+            "id": "47",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--DD_AMT",
+            "target": "RS--JKJE",
+            "relat": ""
+        },
+        {
+            "id": "48",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--LAST_OUTSTANDING",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_BALANCE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--LAST_OUTSTANDING->admname--ADM.CL_LOAN_ACCT_HIST--LOAN_BALANCE->RS--JKYE"
+        },
+        {
+            "id": "49",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--LOAN_BALANCE",
+            "target": "RS--JKYE",
+            "relat": ""
+        },
+        {
+            "id": "50",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RECD_RECBLE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--INT_RECD_RECBLE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RECD_RECBLE->admname--ADM.CL_LOAN_ACCT_HIST--INT_RECD_RECBLE->RS--JKYE"
+        },
+        {
+            "id": "51",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--INT_RECD_RECBLE",
+            "target": "RS--JKYE",
+            "relat": ""
+        },
+        {
+            "id": "52",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_POSTED",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--INT_POSTED",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_POSTED->admname--ADM.CL_LOAN_ACCT_HIST--INT_POSTED->RS--JKYE"
+        },
+        {
+            "id": "53",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--INT_POSTED",
+            "target": "RS--JKYE",
+            "relat": ""
+        },
+        {
+            "id": "54",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RATE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--INT_RATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RATE->admname--ADM.CL_LOAN_ACCT_HIST--INT_RATE->RS--JZLL"
+        },
+        {
+            "id": "55",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--INT_RATE",
+            "target": "RS--JZLL",
+            "relat": ""
+        },
+        {
+            "id": "56",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_BASIS_RATE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_BASIS_RATE->admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM->RS--LLFD"
+        },
+        {
+            "id": "57",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM",
+            "target": "RS--LLFD",
+            "relat": ""
+        },
+        {
+            "id": "58",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RATE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--INT_RATE->admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM->RS--LLFD"
+        },
+        {
+            "id": "59",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--DRIFT_NUM",
+            "target": "RS--LLFD",
+            "relat": ""
+        },
+        {
+            "id": "60",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--CMISLOAN_NO",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--DRAW_NO",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--CMISLOAN_NO->admname--ADM.CL_LOAN_ACCT_HIST--DRAW_NO->RS--XDJJH"
+        },
+        {
+            "id": "61",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--DRAW_NO",
+            "target": "RS--XDJJH",
+            "relat": ""
+        },
+        {
+            "id": "62",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--MATURITY->admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE->RS--ZJRQ"
+        },
+        {
+            "id": "63",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE",
+            "target": "RS--ZJRQ",
+            "relat": ""
+        },
+        {
+            "id": "64",
+            "source": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--PAY_OFF_DATE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE",
+            "relat": "odsname--ODS.SYM_SYM_CL_DRAWDOWN_TBL--PAY_OFF_DATE->admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE->RS--ZJRQ"
+        },
+        {
+            "id": "65",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--SETTLE_DATE",
+            "target": "RS--ZJRQ",
+            "relat": ""
+        },
+        {
+            "id": "66",
+            "source": "odsname--ODS.CMS_BUSINESS_DUEBILL--INTERESTBALANCE1",
+            "target": "RS--BNQXYE",
+            "relat": "odsname--ODS.CMS_BUSINESS_DUEBILL--INTERESTBALANCE1->RS--BNQXYE"
+        },
+        {
+            "id": "67",
+            "source": "odsname--ODS.CMS_BUSINESS_DUEBILL--INTERESTBALANCE2",
+            "target": "RS--BWQXYE",
+            "relat": "odsname--ODS.CMS_BUSINESS_DUEBILL--INTERESTBALANCE2->RS--BWQXYE"
+        },
+        {
+            "id": "68",
+            "source": "odsname--ODS.CMS_BUSINESS_CONTRACT--BAILACCOUNT",
+            "target": "RS--BZJZH",
+            "relat": "odsname--ODS.CMS_BUSINESS_CONTRACT--BAILACCOUNT->RS--BZJZH"
+        },
+        {
+            "id": "69",
+            "source": "odsname--ODS.CMS_BUSINESS_CONTRACT--ACCOUNTNO",
+            "target": "RS--DKRZZH",
+            "relat": "odsname--ODS.CMS_BUSINESS_CONTRACT--ACCOUNTNO->RS--DKRZZH"
+        },
+        {
+            "id": "70",
+            "source": "odsname--ODS.CMS_BUSINESS_DUEBILL--PAYBACKACCOUNT",
+            "target": "RS--HKZH",
+            "relat": "odsname--ODS.CMS_BUSINESS_DUEBILL--PAYBACKACCOUNT->RS--HKZH"
+        },
+        {
+            "id": "71",
+            "source": "odsname--ODS.CMS_BUSINESS_DUEBILL--TATIMES",
+            "target": "RS--LJQKQS",
+            "relat": "odsname--ODS.CMS_BUSINESS_DUEBILL--TATIMES->RS--LJQKQS"
+        },
+        {
+            "id": "72",
+            "source": "odsname--ODS.CMS_BUSINESS_DUEBILL--LCATIMES",
+            "target": "RS--LXQKQS",
+            "relat": "odsname--ODS.CMS_BUSINESS_DUEBILL--LCATIMES->RS--LXQKQS"
+        },
+        {
+            "id": "73",
+            "source": "odsname--ODS.CMS_BUSINESS_DUEBILL--EXTENDTIMES",
+            "target": "RS--ZQCS",
+            "relat": "odsname--ODS.CMS_BUSINESS_DUEBILL--EXTENDTIMES->RS--ZQCS"
+        },
+        {
+            "id": "74",
+            "source": "odsname--ODS.SYM_CL_GL_UNIT--GL_CODE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE",
+            "relat": "odsname--ODS.SYM_CL_GL_UNIT--GL_CODE->admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE->RS--MXKMBH"
+        },
+        {
+            "id": "75",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE",
+            "target": "RS--MXKMBH",
+            "relat": ""
+        },
+        {
+            "id": "76",
+            "source": "odsname--ODS.SYM_CL_GL_UNIT--GL_CODE",
+            "target": "admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE",
+            "relat": "odsname--ODS.SYM_CL_GL_UNIT--GL_CODE->admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE->RS--MXKMMC"
+        },
+        {
+            "id": "77",
+            "source": "admname--ADM.CL_LOAN_ACCT_HIST--GL_CODE",
+            "target": "RS--MXKMMC",
+            "relat": ""
+        },
+        {
+            "id": "78",
+            "source": "odsname--ODS.SYM_FM_BRANCH_TBL--BRANCH",
+            "target": "admname--ADM.CO_BRANCH--BRANCH",
+            "relat": "odsname--ODS.SYM_FM_BRANCH_TBL--BRANCH->admname--ADM.CO_BRANCH--BRANCH->RS--NBJGH"
+        },
+        {
+            "id": "79",
+            "source": "admname--ADM.CO_BRANCH--BRANCH",
+            "target": "RS--NBJGH",
+            "relat": ""
+        },
+        {
+            "id": "80",
+            "source": "odsname--ODS.SYM_CL_DRAFT--DRAFT_AMT",
+            "target": "RS--PMJE",
+            "relat": "odsname--ODS.SYM_CL_DRAFT--DRAFT_AMT->RS--PMJE"
+        },
+        {
+            "id": "81",
+            "source": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL--END_DATE",
+            "target": "RS--DQQS",
+            "relat": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL--END_DATE->RS--DQQS"
+        },
+        {
+            "id": "82",
+            "source": "odsname--ODS.SYM_FM_USER--USER_NAME",
+            "target": "RS--XDYXM",
+            "relat": "odsname--ODS.SYM_FM_USER--USER_NAME->RS--XDYXM"
+        },
+        {
+            "id": "83",
+            "source": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL--COUNTER",
+            "target": "RS--ZQS",
+            "relat": "odsname--ODS.SYM_SYM_CL_REPAY_SCHED_TBL--COUNTER->RS--ZQS"
+        }
+    ]
+}

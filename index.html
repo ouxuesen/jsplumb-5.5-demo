@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script src="https://cdn.bootcss.com/mustache.js/2.3.0/mustache.min.js"></script>
+    <script src="./js/jsplumb.bundle.js"></script>
+    <script type="module" src="./script/index.js"></script>
+    <link rel="stylesheet" href="./script/index.css">
+    <link rel="stylesheet" href="./js/jsplumbtoolkit.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="jsplumbApp" oncontextmenu="return false" onmousedown="mouseup(event)" onmouseup="mouseup(event)">
+
+    </div>
+    <!--起源表模板-->
+    <script id="tpl-Origin" type="text/html">
+        <ul class="pa col-group panel-node-{{type}}" id='{{id}}' style='top:{{top}}px;left:{{left}}px'>
+            <div id='{{id}}-heading' data-id="{{id}}" class="table-header">{{name}}</div>
+        </ul>
+    </script>
+
+</body>
+<script>
+    function mouseup(event) {
+        if (event.button == 2) {
+            $("#bg").css("cursor", "Auto");
+        }
+        // console.log(this.X+"|"+this.Y)
+    }
+</script>
+
+</html>
