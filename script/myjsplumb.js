@@ -149,10 +149,10 @@ myJspulmb.prototype.addGroup = function (group, gropID) {
   this.instance.addGroup({
     el: group,
     id: gropID,
-    collapsed: true,
+    collapsed: false,
     droppable: false,
-    anchor: "TopLeft",
-    endpoint: { type: "Rectangle", options: { width: 10, height: 10 } }
+    anchor: "BottomLeft",
+    endpoint: { type: "Dot", options: { width: 10, height: 10 } }
   });
 }
 //分组
@@ -165,10 +165,35 @@ myJspulmb.prototype.addToDragGroup = function (group, element) {
 myJspulmb.prototype.addToDragSelection = function (elements) {
   this.instance.addToDragSelection(elements);
 }
-
-//折叠和扩展组#
+myJspulmb.prototype.toggleGroupAll = function () {
+  let that = this
+  this.instance.groupManager.getGroups().forEach(group => {
+    that.toggleGroup(group)
+  })
+},
+  //折叠和扩展组#
+  myJspulmb.prototype.toggleGroup = function (aGroup, elem) {
+    aGroup = this.instance.getGroup(aGroup)
+    if (!aGroup.collapsed) {
+      this.collapseGroup(aGroup)
+      if (elem) {
+        elem.innerHTML = '+'
+        this.instance.addClass(elem, 'normal')
+        this.instance.removeClass(elem, "helight")
+      }
+    } else {
+      this.expandGroup(aGroup)
+      if (elem) {
+        elem.innerHTML = '-'
+        this.instance.addClass(elem, 'helight')
+        this.instance.removeClass(elem, 'normal')
+      }
+    }
+    this.instance.groupManager.repaintGroup(aGroup)
+  }
 myJspulmb.prototype.collapseGroup = function (aGroup) {
   this.instance.collapseGroup(aGroup)
+
 }
 myJspulmb.prototype.expandGroup = function (aGroup) {
   this.instance.expandGroup(aGroup)
@@ -195,14 +220,14 @@ myJspulmb.prototype.setType = function (activeNodesDic, select) {
     connection.setType(select ? "selected" : "default")
     this.instance.repaint(connection.source)
   })
-    activeNodesDic.elements.forEach(({
-        columnID
-    }) => {
-        document.getElementById(columnID).style.backgroundColor = select ? "#faebd7" : "#fff"
-    });
+  activeNodesDic.elements.forEach(({
+    columnID
+  }) => {
+    document.getElementById(columnID).style.backgroundColor = select ? "#faebd7" : "#fff"
+  });
 }
 myJspulmb.prototype.setElementHelight = function (id, select) {
-  this.setType(columnActiveNodeDic(id, select, this.relations),select)
+  this.setType(columnActiveNodeDic(id, select, this.relations), select)
 }
 
 //添加事件 高亮
@@ -216,14 +241,12 @@ myJspulmb.prototype.addeventFun = function (element) {
       let temp = lineActiveNodeDic(connect.source.id, connect.target.id, true, this.relations)
       that.setType(temp, true)
     }
-
   })
   element.bind(jsPlumbBrowserUI.EVENT_CONNECTION_MOUSEOUT, (connect) => {
     if (connect.source.id && connect.target.id) {
       let temp = lineActiveNodeDic(connect.source.id, connect.target.id, true, this.relations)
       that.setType(temp, false)
     }
-
   })
 }
 export default myJspulmb
